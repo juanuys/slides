@@ -4,8 +4,8 @@
   "description": "My slides.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "dist": "parcel build index.html -d docs --public-url ./",
+    "start": "parcel index.html --public-url /",
+    "dist": "parcel build index.html -d docs --public-url /",
     "build": "parcel build index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
