@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "dist": "parcel build index.html -d docs --public-url https://juanuys.com/",
+    "dist": "parcel build index.html -d docs --public-url https://juanuys.com/slides/",
     "build": "parcel build index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -16,4 +16,4 @@ var t,e=arguments[3];function n(t){return(n="function"==typeof Symbol&&"symbol"=
 },{}],"Lgax":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};Object.defineProperty(exports,"__esModule",{value:!0});var t=e(require("reveal.js")),r=e(require("../../js/highlight/highlight")),i=e(require("../../js/markdown/markdown")),u=e(require("../../js/notes/notes"));t.default.initialize({hash:!0,plugins:[i.default,r.default,u.default]});
 },{"reveal.js":"O3k6","../../js/highlight/highlight":"F9zg","../../js/markdown/markdown":"EUZP","../../js/notes/notes":"gMlj"}]},{},["Lgax"], null)
-//# sourceMappingURL=https://juanuys.com/disco-prelysium.e1ab40e8.js.map
+//# sourceMappingURL=https://juanuys.com/slides/disco-prelysium.e1ab40e8.js.map
