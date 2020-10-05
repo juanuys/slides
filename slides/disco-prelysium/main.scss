@@ -1,0 +1,33 @@
+ul.colourcoded {
+    li::before {
+        content: "▇ ";
+    }
+    li:nth-child(1) {
+        color: orange;
+    }
+    li:nth-child(2) {
+        color: purple;
+    }
+    li:nth-child(3) {
+        color: white;
+    }
+
+    &.tiny {
+        font-size: 0.5em;
+        &>* {
+            display: inline-block;
+        }
+    }
+}
+
+p.smalltext {
+    font-size: 0.5em;
+    &::before {
+        content: '"';
+        font-size: 2em;
+    }
+}
+
+img {
+    height: 300px;
+}

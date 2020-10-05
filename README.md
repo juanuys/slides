@@ -1,6 +1,8 @@
 # Intro
 
-A Parcel + Typescript + Vue + SCSS starter.
+Some of my slides.
+
+# Tech
 
 Dev/build:
 

@@ -39,30 +39,155 @@
   <meta property="twitter:image" content="https://juanuys.com/assets/about/juanuys.png">
 
   <link rel="stylesheet" href="../../scss/main.scss">
+  <link rel="stylesheet" href="./main.scss">
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
 
-            <section data-auto-animate>
-                <h2 data-id="code-title">Pretty Code</h2>
-                <pre data-id="code-animation"><code class="hljs" data-trim data-line-numbers>
-                    import React, { useState } from 'react';
-
-                    function Example() {
-                      const [count, setCount] = useState(0);
-
-                      return (
-                        ...
-                      );
-                    }
-                </code></pre>
-                <p>Code syntax highlighting courtesy of <a href="https://highlightjs.org/usage/">highlight.js</a>.</p>
+            <section>
+                <h1>Disco <strong>Pre</strong>-lysium</h1>
+                <p>If Disco Elysium was planned today.</p>
+                <img src="./assets/disco-elysium.jpeg" alt="Disco Elysium official artwork, Copyright ZA/UM">
             </section>
 
-            <section>Slide 1</section>
-            <section>Slide 2</section>
+            <section>
+                <p>In this exercise, I'll simulate the planning stage of <span style="color: violet;">Disco Elysium</span> using a variety of prototyping techniques:</p>
+                <uL>
+                    <li>wireframing</li>
+                    <li>sketching</li>
+                    <li>narrative prototyping</li>
+                </uL>
+            </section>
 
+            <section>
+                <h2>wireframing</h2>
+                <p>Here we try a bunch of screen layouts, colour-coded as follows:</p>
+                <ul class="colourcoded">
+                    <li>dialogue</li>
+                    <li>inventory</li>
+                    <li>world</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>wireframing</h2>
+                <p class="smalltext">
+                    On the left, we split gameplay and conversation down the middle, but it feels like we're giving too much space to the conversation.
+                    We try to make it smaller, but is it too small?
+                </p>
+                <img src="./assets/wireframe1.png" alt="wireframe 1">
+
+                <ul class="colourcoded tiny">
+                    <li>dialogue</li>
+                    <li>inventory</li>
+                    <li>world</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>wireframing</h2>
+                <p class="smalltext">
+                    Let's try thirds. That looks nice. OK, how about inventory? On the left below gameplay, or on the right below the conversation?
+                </p>
+                <img src="./assets/wireframe2.png" alt="wireframe 2">
+
+                <ul class="colourcoded tiny">
+                    <li>dialogue</li>
+                    <li>inventory</li>
+                    <li>world</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>wireframing</h2>
+                <p class="smalltext">
+                    Definitely below conversation, so we can have a nice, large gameplay area. But let's not be all squares. How about a trapezoid?
+                    And a ...bit... more space for conversation. OK, that looks good.
+                </p>
+                <img src="./assets/wireframe3.png" alt="wireframe 3">
+
+                <ul class="colourcoded tiny">
+                    <li>dialogue</li>
+                    <li>inventory</li>
+                    <li>world</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>wireframing</h2>
+                <p class="smalltext">
+                    Right, that's a good layout. Let's see some <em>rough</em> concept art in it, shall we?
+                </p>
+                <img src="./assets/wireframe-blank.jpg" alt="wireframe final choice" >
+            </section>
+
+            <section>
+                <h2>sketching</h2>
+                <p class="smalltext">
+                    Nice and gritty, just like Revachol.
+                </p>
+                <img src="./assets/wireframe-mockup.jpg" alt="Rough sketch of game world and some characters">
+            </section>
+
+            <section>
+                <span>Robert Kurvitz</span><br>
+                <img src="./assets/Robert_Kurvitz.png" alt="Robert Kurvitz, lead game designer">
+                
+                <p class="smalltext">
+                    OK, stop.
+                    I know this is <a href="https://zaumstudio.com/2017/08/07/the-guts-of-the-game/">based on my novel</a> and all, but is there a way we can test the dialogue before we spend LOADS of time drawing stuff and coding something?
+                </p>
+                <p class="smalltext">
+                    I mean, we already spent LOADS of time on the wireframes...
+                </p>
+            </section>
+
+            <section>
+                <h2>narrative prototyping</h2>
+                
+                <section>
+                    <p class="smalltext">
+                        We've got just the tool.
+                    </p>
+                    <p class="smalltext fragment">Twine.</p>
+                </section>
+
+                <section>
+                    <p class="smalltext">You mean this?</p>
+                    <img src="./assets/twine.jpeg" alt="The wrong kind of Twine">
+                </section>
+
+                <section>
+                    <p class="smalltext">
+                        Not <em>THAT</em> kind of Twine...
+                    </p>
+                </section>
+            </section>
+
+            <section>
+                <h2>narrative prototyping</h2>
+                <img src="./assets/the-real-twine.png" alt="The right kind of Twine">
+                <br>
+                <a href="https://twinery.org/">twinery.org</a>
+            </section>
+
+            <section>
+                <p>This next section is Copyright &copy; <a href="https://github.com/apepers/DiscoElysiumTwineMacros">Alexei Pepers / @ampepers</a></p>
+                
+                <p>Don't skip ahead. Click the red Continue button to follow the story...</p>
+            </section>
+
+            <section>
+                <iframe  width="1024" height="768" data-src="https:////v6p9d9t4.ssl.hwcdn.net/html/2517477/index.html" data-preload></iframe>
+            </section>
+
+            <section>
+                <h1>FIN</h1>
+                <br>
+                <br>
+                (back to the <a href="">blog</a>)
+            </section>
 
         </div>
     </div>
